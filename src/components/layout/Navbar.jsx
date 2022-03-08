@@ -45,19 +45,17 @@ export default function Menu() {
 
                     </Nav>
                     <Nav>
-                        {/* <Nav.Link target='_blank' href="https://www.pinksale.finance/#/launchpad/0x09C14E72487bA8d5173f81477e8F09158801245b?chain=BSC">
-                            Join Presale
-                        </Nav.Link> */}
+                   
                         <Nav.Link href="/whitepaper.pdf" target='_blank'>
                             Whitepaper
                         </Nav.Link>
-                        <Nav.Link href="https://stake.yearnlab.com/" target='_blank'>
+                        <Nav.Link href="/" target='_blank'>
                             Stake
                         </Nav.Link>
                         <Nav.Link href="/governance" target='_blank'>
                             Vote
                         </Nav.Link>
-                        <Nav.Link href="https://create.yearnlab.com/" target='_blank'>
+                        <Nav.Link href="/" target='_blank'>
                             Create Token
                         </Nav.Link>
                         <NavDropdown

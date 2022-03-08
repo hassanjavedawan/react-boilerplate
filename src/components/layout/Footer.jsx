@@ -1,4 +1,14 @@
-import { FaDiscord } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
+import {
+  FaDiscord,
+  FaYoutube,
+  FaInstagram,
+  FaGithub,
+  FaFacebook,
+  FaTelegram,
+  FaMediumM,
+  FaReddit,
+} from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="pt-3 footer" id="footer">
@@ -11,37 +21,47 @@ const Footer = () => {
               <ul className="list-unstyled ">
                 <li>
                   <a target="_BLANK" href="">
-                    <i className="fa fa-medium"></i>
+                    <FaMediumM />
                   </a>
                 </li>
                 <li>
                   <a target="_BLANK" href="">
-                    <i className="fa fa-twitter"></i>
+                    <AiOutlineTwitter />
                   </a>
                 </li>
                 <li>
                   <a target="_BLANK" href="">
-                    <i className="fa fa-facebook"></i>
+                    <FaTelegram />
                   </a>
                 </li>
                 <li>
                   <a target="_BLANK" href="">
-                    <i className="fa fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_BLANK" href="">
-                    <i className="fa fa-telegram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_BLANK" href="">
-                    <i className="fa fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_BLANK" href="" >
                     <FaDiscord />
+                  </a>
+                </li>
+                <li>
+                  <a target="_BLANK" href="">
+                    <FaInstagram />
+                  </a>
+                </li>
+                <li>
+                  <a target="_BLANK" href="">
+                    <FaGithub />
+                  </a>
+                </li>
+                <li>
+                  <a target="_BLANK" href="">
+                    <FaYoutube />
+                  </a>
+                </li>
+                <li>
+                  <a target="_BLANK" href="">
+                    <FaReddit />
+                  </a>
+                </li>
+                <li>
+                  <a target="_BLANK" href="">
+                    <FaFacebook />
                   </a>
                 </li>
               </ul>
