@@ -38,13 +38,12 @@ body::-webkit-scrollbar {
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
 
 .navbar {
-  width: 100%;
   width: 100% !important;
   // position: fixed !important;
   background-color: red !important;
-  top: 0;
-  left: 0;
-  z-index: 1000;
+  // top: 0;
+  // left: 0;
+  // z-index: 1000;
   box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15) !important;
   
 }
@@ -53,7 +52,7 @@ body::-webkit-scrollbar {
   -webkit-transition: all 0.3s ease-out !important;
   transition: all 0.3s ease-out !important;
 }
-.navbar-toggler {
+.navbar .navbar-toggler {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
@@ -62,11 +61,11 @@ body::-webkit-scrollbar {
 .nav-item > .active {
   color: #8a79e2 !important;
 }
-.navbar-toggler:active,
+.navbar .navbar-toggler:active,
 .navbar-toggler:focus {
   outline: none !important;
 }
-.navbar-toggler-icon {
+.navbar .navbar-toggler-icon {
   width: 24px;
   height: 17px;
   background-image: none !important;
@@ -74,7 +73,7 @@ body::-webkit-scrollbar {
   border-bottom: 2px solid #fff;
   transition: all 300ms linear;
 }
-.navbar-toggler-icon:after,
+.navbar .navbar-toggler-icon:after,
 .navbar-toggler-icon:before {
   width: 24px;
   position: absolute;
@@ -86,7 +85,7 @@ body::-webkit-scrollbar {
   z-index: 2;
   transition: all 300ms linear;
 }
-.navbar-toggler-icon:after {
+.navbar .navbar-toggler-icon:after {
   top: 8px;
 }
 
@@ -109,7 +108,26 @@ body::-webkit-scrollbar {
   font-weight: 500!important;
   transition: all 200ms ease-in-out !important;
 }
+.nav-btn {
+  border: 2px solid #fff;
+  // border-image: linear-gradient(160deg, #F89947 0%, #E730A8 31.67%, #7327D7 66.07%, #0A76EB 100%);
+  backdrop-filter: blur(15px);
+  height: 52px;
+  width: 200px;
+  border-radius: 100px;
 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.005em;
+  /* Neutral/Neutral 07 */
+  color: #dadee3;
+}
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
 //                               Faq
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
